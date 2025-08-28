@@ -1,4 +1,4 @@
-var texto = "JavaScript"
+var texto = "Jonathan Luis Uber"
 var palavra_invertida = ""
 
 for(var i = texto.length - 1; i >= 0; i--){
