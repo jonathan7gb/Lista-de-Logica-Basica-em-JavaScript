@@ -7,7 +7,9 @@ for(let i = palavra.length - 1; i >= 0; i--){
     palavra_convertida = palavra_convertida + palavra[i]
 }
 
-if(palavra == palavra_convertida){
+desconstroi = str => str.toLowerCase().replace(/\s+/g, '');
+
+if(desconstroi(palavra) == desconstroi(palavra_convertida)){
     console.log("A palavra " + palavra + " é um palíndromo.");
     console.log(palavra_convertida);
 }else{
