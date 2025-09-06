@@ -33,3 +33,20 @@ console.log(duasPrimeiras);
 todasFrutas.splice(1,1)
 console.log(todasFrutas);
 
+let temBanana = todasFrutas.indexOf("Banana")
+console.log(temBanana);
+
+let comecacomM = todasFrutas.filter(function(fruta){
+    return fruta[0] === 'M'
+})
+console.log(comecacomM);
+
+let dobro = numeros.map(function(num){
+    return num*2
+})
+console.log(dobro);
+
+todasFrutas.forEach(function(fruta){
+    console.log(fruta);
+})
+
